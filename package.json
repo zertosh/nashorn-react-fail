@@ -1,0 +1,14 @@
+{
+  "name": "nashorn-react-fail",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "react": "0.12.2",
+    "browserify": "7.1.0"
+  },
+  "scripts": {
+    "start": "jjs index.js",
+    "build": "browserify main.js --standalone main --outfile main-built.js"
+  }
+}
